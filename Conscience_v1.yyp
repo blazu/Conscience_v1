@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "064562db-dc99-43cc-b80f-0acd827e7131",
+            "Value": {
+                "id": "0aa3a5db-0068-4bd4-a1d0-42ad571c1915",
+                "resourcePath": "objects\\X_Button\\X_Button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "081b2423-e947-4095-a97a-d458eae320f5",
             "Value": {
                 "id": "f98337fb-40d8-4cdc-b1af-fb4768895489",
@@ -84,6 +92,14 @@
                 "id": "267c6a56-a1eb-4375-b19a-f6c172ba8bdb",
                 "resourcePath": "sprites\\Moral\\Moral.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "17e495bd-3ae4-436e-bf6e-c858693b4ab4",
+            "Value": {
+                "id": "c792a86f-dc9d-4af4-a324-d8cc697b6a0a",
+                "resourcePath": "objects\\Buy_Button\\Buy_Button.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -239,6 +255,14 @@
             }
         },
         {
+            "Key": "977aec7f-2066-4e4e-8bee-a4b009b112c2",
+            "Value": {
+                "id": "6b66a2e9-1b4c-45b0-a566-9cf310e27262",
+                "resourcePath": "objects\\Sell_Button\\Sell_Button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9bdf8a49-c41d-4838-9c83-17d8f27e9a4a",
             "Value": {
                 "id": "4f56fbf9-ddca-423b-b80c-6c2b3191bc8c",
@@ -284,6 +308,14 @@
                 "id": "fe7f472f-2917-4d25-afce-0bbff6a28234",
                 "resourcePath": "sprites\\Money\\Money.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b0852a92-5579-46e1-bff4-b32fe0b38edd",
+            "Value": {
+                "id": "760a94bd-746d-4e84-9604-6fedf89446e8",
+                "resourcePath": "views\\b0852a92-5579-46e1-bff4-b32fe0b38edd.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -340,6 +372,14 @@
                 "id": "d39e1389-188a-44e4-a46e-492dc923e83c",
                 "resourcePath": "views\\d3a3e0a5-3d53-405f-abae-85d44207404e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d412ad10-1502-4b5d-97cc-9948af462543",
+            "Value": {
+                "id": "f932fd63-cdd9-4dc0-a3f2-32d6b046f4e1",
+                "resourcePath": "objects\\Exit_Button\\Exit_Button.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -428,6 +468,14 @@
                 "id": "0fd57663-6a22-44b8-892d-197fe03b3d2d",
                 "resourcePath": "views\\f4d95020-1690-4591-a61b-ee7b5718a0bd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f98d5fa9-be74-4773-a4cd-a52bc9106f99",
+            "Value": {
+                "id": "930ce203-e425-40b0-b0b0-0a043e853322",
+                "resourcePath": "objects\\Freedom_Button\\Freedom_Button.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
