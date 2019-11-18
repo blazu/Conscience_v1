@@ -31,10 +31,26 @@
     },
     "resources": [
         {
+            "Key": "0020e9e9-28f4-4b9c-9831-ffc15dde5a30",
+            "Value": {
+                "id": "2357b69a-86cf-4ba7-9b11-a1ed2411486b",
+                "resourcePath": "sprites\\Red_X\\Red_X.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "081b2423-e947-4095-a97a-d458eae320f5",
             "Value": {
                 "id": "f98337fb-40d8-4cdc-b1af-fb4768895489",
                 "resourcePath": "sprites\\Tutorial_Screen\\Tutorial_Screen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0acd8795-f841-4fec-af5f-4ad717eec08a",
+            "Value": {
+                "id": "84191920-5d27-48b4-bc78-34a147e4f064",
+                "resourcePath": "sprites\\Sell\\Sell.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -60,6 +76,14 @@
                 "id": "9b5189df-8e17-4011-9a47-35c0fa7a641d",
                 "resourcePath": "views\\1331aac6-4673-49c5-b135-f9d29a1498fc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "13f8d62d-c16e-472d-ae14-6c7c3e020047",
+            "Value": {
+                "id": "267c6a56-a1eb-4375-b19a-f6c172ba8bdb",
+                "resourcePath": "sprites\\Moral\\Moral.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -91,6 +115,14 @@
             "Value": {
                 "id": "131e38fd-a3d6-4f91-9f8d-94eaf3440365",
                 "resourcePath": "sprites\\Game_Screen\\Game_Screen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "316ad749-37c6-4531-9b8b-b7c3ecba380b",
+            "Value": {
+                "id": "90f29ca0-d477-43d3-b490-68814c3457e1",
+                "resourcePath": "sprites\\Player\\Player.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -175,6 +207,14 @@
             }
         },
         {
+            "Key": "812d00f5-44e9-4485-9822-ab9cf58d1c74",
+            "Value": {
+                "id": "b7589cec-df8e-4c06-88ea-2524e7957792",
+                "resourcePath": "scripts\\set_Globals\\set_Globals.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "84527d8d-e9e0-4483-88e7-f125a3a2bfd7",
             "Value": {
                 "id": "c2ab1b83-3ac1-412f-a833-027be4fca333",
@@ -215,6 +255,14 @@
             }
         },
         {
+            "Key": "a12c78b8-1a81-4d48-8322-5098aa87a529",
+            "Value": {
+                "id": "f01bcf5d-944a-4654-9344-d936cc2ced92",
+                "resourcePath": "sprites\\Pause\\Pause.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a1e568ec-9542-43ab-9f5b-bce67d65a24a",
             "Value": {
                 "id": "a69b9390-2ad1-4743-98cb-25c266f1bae1",
@@ -228,6 +276,14 @@
                 "id": "d61ededc-935d-40ff-ad00-e1b58e51489c",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9fd024d-ee9d-4eb1-a8c5-e7561852cbbb",
+            "Value": {
+                "id": "fe7f472f-2917-4d25-afce-0bbff6a28234",
+                "resourcePath": "sprites\\Money\\Money.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -287,11 +343,43 @@
             }
         },
         {
+            "Key": "d4813142-9252-4a9c-bbe4-da4eba31e781",
+            "Value": {
+                "id": "00f454f8-56a2-47cd-97dd-8b52caaa9407",
+                "resourcePath": "sprites\\Set_Free\\Set_Free.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d9e8a287-7c39-4673-9ec0-e4f551e249b6",
+            "Value": {
+                "id": "9ecdf369-b470-4bf0-a3fd-a9272ce6a8d8",
+                "resourcePath": "views\\d9e8a287-7c39-4673-9ec0-e4f551e249b6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dac6a574-3a28-49a1-9f66-584a5d0ed8f3",
             "Value": {
                 "id": "4ef1bc0e-7c1e-4dd5-ba2b-346b7e79981f",
                 "resourcePath": "rooms\\Title_Room\\Title_Room.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e2ee5f34-3aac-4c20-a151-34cf4115258b",
+            "Value": {
+                "id": "d6c9a207-4b0d-4405-9816-8042b2a38970",
+                "resourcePath": "sprites\\Buy\\Buy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e5903273-76b7-4226-91cb-7f031fab6450",
+            "Value": {
+                "id": "652ef6cc-d01e-4023-ab07-db8303e4c11e",
+                "resourcePath": "sprites\\Exit\\Exit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -311,6 +399,14 @@
             }
         },
         {
+            "Key": "f01bc037-e10c-4bb9-9b76-272d5ec54ef4",
+            "Value": {
+                "id": "fdc44474-fe37-4c02-b304-074d37bfdd70",
+                "resourcePath": "views\\f01bc037-e10c-4bb9-9b76-272d5ec54ef4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f1803553-0b3d-4267-8c1a-67cb264ad1f8",
             "Value": {
                 "id": "5b093784-6d80-4086-878e-60fb0b403e8e",
@@ -325,10 +421,18 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "f4d95020-1690-4591-a61b-ee7b5718a0bd",
+            "Value": {
+                "id": "0fd57663-6a22-44b8-892d-197fe03b3d2d",
+                "resourcePath": "views\\f4d95020-1690-4591-a61b-ee7b5718a0bd.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "script_order": [
-        
+        "812d00f5-44e9-4485-9822-ab9cf58d1c74"
     ],
     "tutorial": ""
 }
