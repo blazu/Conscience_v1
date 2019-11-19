@@ -1,8 +1,8 @@
 {
-    "id": "812d00f5-44e9-4485-9822-ab9cf58d1c74",
+    "id": "67f654f3-953f-4799-9e4d-f1e9ed623591",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "set_Globals",
+    "name": "Timer",
     "IsCompatibility": false,
     "IsDnD": true
 }

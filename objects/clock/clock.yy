@@ -1,18 +1,18 @@
 {
-    "id": "9f324d80-2647-49ca-8f21-c3ef961a0735",
+    "id": "ea877557-5aa2-446f-831d-cde45b5b71d3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Moral_Score",
+    "name": "clock",
     "eventList": [
         {
-            "id": "6679ea5b-3f96-4161-80f2-32132de17930",
+            "id": "b7e45deb-e234-47d5-9cad-60cc5e7b3252",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "9f324d80-2647-49ca-8f21-c3ef961a0735"
+            "eventtype": 3,
+            "m_owner": "ea877557-5aa2-446f-831d-cde45b5b71d3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,23 +31,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "bd59de8d-bf0d-4f89-8b66-2914333d01d4",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1000",
-            "varName": "global.moral",
-            "varType": 0
-        }
-    ],
+    "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "visible": false
 }
