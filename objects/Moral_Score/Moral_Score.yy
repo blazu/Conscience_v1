@@ -1,18 +1,18 @@
 {
-    "id": "064562db-dc99-43cc-b80f-0acd827e7131",
+    "id": "9f324d80-2647-49ca-8f21-c3ef961a0735",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "X_Button",
+    "name": "Moral_Score",
     "eventList": [
         {
-            "id": "13618342-61c3-4bdd-9153-68bc69913e6e",
+            "id": "6679ea5b-3f96-4161-80f2-32132de17930",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "064562db-dc99-43cc-b80f-0acd827e7131"
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "9f324d80-2647-49ca-8f21-c3ef961a0735"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,8 +31,23 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "bd59de8d-bf0d-4f89-8b66-2914333d01d4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1000",
+            "varName": "global.moral",
+            "varType": 0
+        }
+    ],
     "solid": false,
-    "spriteId": "0020e9e9-28f4-4b9c-9831-ffc15dde5a30",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

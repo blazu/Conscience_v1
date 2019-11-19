@@ -1,18 +1,18 @@
 {
-    "id": "064562db-dc99-43cc-b80f-0acd827e7131",
+    "id": "380e8fbb-cd68-4760-96e6-619f014914b5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "X_Button",
+    "name": "Cash_Score",
     "eventList": [
         {
-            "id": "13618342-61c3-4bdd-9153-68bc69913e6e",
+            "id": "b65e6c85-ce18-4590-b23b-b741f5980381",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "064562db-dc99-43cc-b80f-0acd827e7131"
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "380e8fbb-cd68-4760-96e6-619f014914b5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,8 +31,23 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "f491e0fc-bd43-49ba-840b-70439e8e0608",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "200",
+            "varName": "global.cash",
+            "varType": 0
+        }
+    ],
     "solid": false,
-    "spriteId": "0020e9e9-28f4-4b9c-9831-ffc15dde5a30",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "380e8fbb-cd68-4760-96e6-619f014914b5",
+            "Value": {
+                "id": "ceab95d7-fb9c-4ab2-bf06-e7c29d7c70a4",
+                "resourcePath": "objects\\Cash_Score\\Cash_Score.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4146a5dc-0ee3-4be0-ae35-e4169d0de5b5",
             "Value": {
                 "id": "393ff8e0-41f4-4ccf-8f89-3ce6ee32fcdd",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "9f324d80-2647-49ca-8f21-c3ef961a0735",
+            "Value": {
+                "id": "bbcd12fb-19eb-4086-912b-3a315d98bc18",
+                "resourcePath": "objects\\Moral_Score\\Moral_Score.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a12c78b8-1a81-4d48-8322-5098aa87a529",
             "Value": {
                 "id": "f01bcf5d-944a-4654-9344-d936cc2ced92",
@@ -378,7 +394,7 @@
             "Key": "d412ad10-1502-4b5d-97cc-9948af462543",
             "Value": {
                 "id": "f932fd63-cdd9-4dc0-a3f2-32d6b046f4e1",
-                "resourcePath": "objects\\Exit_Button\\Exit_Button.yy",
+                "resourcePath": "objects\\Exit_Button_Start_Menu\\Exit_Button_Start_Menu.yy",
                 "resourceType": "GMObject"
             }
         },
