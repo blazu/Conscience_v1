@@ -8,6 +8,13 @@ if (l239D7AA6_0)
 
 }
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3331D805
+/// @DnDArgument : "expr" "+1"
+/// @DnDArgument : "var" "global.player"
+global.player = +1;
+
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 622441E1

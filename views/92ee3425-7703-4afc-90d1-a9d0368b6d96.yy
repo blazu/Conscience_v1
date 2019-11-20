@@ -9,8 +9,7 @@
         "cf9332cf-b6e3-40ea-9f3e-c7659b728323",
         "6fe0033f-21b0-47b4-a96b-98263a7d179e",
         "2fecaba3-7b0b-4234-be75-8aa929b17110",
-        "8db5c2e3-c6c5-4f8f-9b9d-738faabfbb63",
-        "55f14a62-d10a-4c5e-97af-c2e950f027b1"
+        "8db5c2e3-c6c5-4f8f-9b9d-738faabfbb63"
     ],
     "filterType": "GMSprite",
     "folderName": "Males",
