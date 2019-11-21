@@ -1,5 +1,5 @@
 {
-    "id": "c8f82e0b-ce3a-4806-9d61-58137fb4613e",
+    "id": "99e967ef-a098-4c2c-978c-129c737945a1",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "randomize_person",
