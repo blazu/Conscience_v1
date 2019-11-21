@@ -1,18 +1,18 @@
 {
-    "id": "74682789-2f68-4bd9-9926-ae2378953e11",
+    "id": "cf350945-b8fc-40ed-8c43-3e9ca9660a4e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Init",
+    "name": "dynamic_object_spawner",
     "eventList": [
         {
-            "id": "1da1c51b-dea5-4f30-a5b2-c8e5e8206400",
+            "id": "1c56c92e-6f0b-476f-ad57-e3320ceb0186",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "74682789-2f68-4bd9-9926-ae2378953e11"
+            "eventtype": 3,
+            "m_owner": "cf350945-b8fc-40ed-8c43-3e9ca9660a4e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

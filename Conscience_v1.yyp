@@ -498,7 +498,7 @@
             "Key": "99e967ef-a098-4c2c-978c-129c737945a1",
             "Value": {
                 "id": "0ad56986-748d-41f2-9260-6eac752eba71",
-                "resourcePath": "scripts\\draw_person\\draw_person.yy",
+                "resourcePath": "scripts\\dyn_obj_id\\dyn_obj_id.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -700,6 +700,14 @@
                 "id": "53f73a44-1b57-4581-bf86-92b6d54aa78e",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cf350945-b8fc-40ed-8c43-3e9ca9660a4e",
+            "Value": {
+                "id": "7f07f22b-5a49-461f-9da0-14d29651b334",
+                "resourcePath": "objects\\dynamic_object_spawner\\dynamic_object_spawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
