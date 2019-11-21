@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "Female1_obj",
     "eventList": [
-        
+        {
+            "id": "be775fe5-36b4-43ea-9c4a-3a3a2888a494",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ba36e391-6923-4613-b117-f657adffa77e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

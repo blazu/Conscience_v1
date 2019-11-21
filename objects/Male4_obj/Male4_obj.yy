@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "Male4_obj",
     "eventList": [
-        
+        {
+            "id": "00b4189e-3026-42a3-8b0d-115b0c50eb4a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "72086f00-733f-46f3-9d0d-9bf08d21dc46"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
