@@ -10,10 +10,10 @@ if (l46968562_0)
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
-/// @DnDHash : 50D9142B
-/// @DnDArgument : "script" "Initiate_globals"
-/// @DnDSaveInfo : "script" "c238b41e-1924-46fb-baff-da36c2cc1ac6"
-script_execute(Initiate_globals);
+/// @DnDHash : 45A75BAD
+/// @DnDArgument : "script" "Reset_Game_Stats"
+/// @DnDSaveInfo : "script" "8e86fd6e-6da7-4767-b42b-439427404e12"
+script_execute(Reset_Game_Stats);
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
