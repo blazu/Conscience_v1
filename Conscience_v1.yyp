@@ -439,14 +439,6 @@
             }
         },
         {
-            "Key": "8e86fd6e-6da7-4767-b42b-439427404e12",
-            "Value": {
-                "id": "b2d396da-2844-4bd2-86ce-013b8da60989",
-                "resourcePath": "scripts\\Reset_Game_Stats\\Reset_Game_Stats.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "92ee3425-7703-4afc-90d1-a9d0368b6d96",
             "Value": {
                 "id": "e56e92dc-ccfd-4ecf-8c11-c64bf943c199",
@@ -824,7 +816,6 @@
         }
     ],
     "script_order": [
-        "8e86fd6e-6da7-4767-b42b-439427404e12",
         "bf5e4387-98de-4cf2-b012-04eaa736a27f",
         "8138cdbe-d5f2-48b9-a8f3-c25644708dc5",
         "87d295d1-e92d-4052-8956-7142f3fdd0f4",
