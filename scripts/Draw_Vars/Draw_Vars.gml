@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 5AEC8CF4
-/// @DnDArgument : "code" "//draws the important values$(13_10)draw_set_color($FF0E727F)$(13_10)draw_text_transformed(180, 65, global.moral,2.8,2.8, 0);$(13_10)draw_text_transformed(190, 10, global.cash, 2.8, 2.8, 0);$(13_10)draw_text_transformed(440, 10, "time:" + string(global.time),2.8,2.8, 0);$(13_10)$(13_10)$(13_10)for (i = 1; i <= 8; i++){$(13_10)	if(grid[i, 3] == true){$(13_10)		if(inventory[i,2] > inventory[i, 3]){$(13_10)			draw_set_color($2E8B57);$(13_10)		}else if(inventory[i,2] < inventory[i,3]){$(13_10)			draw_set_color($8B0000);$(13_10)		}else{$(13_10)			draw_set_color($B0C4DE);$(13_10)		}$(13_10)	}$(13_10)	$(13_10)	temp_y = grid[i,2] + 20;$(13_10)	draw_text_transformed(grid[i,1],temp_y, inventory[i, 3],1.8, 1.8, 0)$(13_10)}$(13_10)//each grid layer, draw current value$(13_10)//if(inventory[i,3] == "true"){$(13_10)// if (inventory[i,2] > inventory[i,3]){set color green}$(13_10)// else if (inventory [i,2] < inventory[i,3]){set colour red}$(13_10)// else (default)$(13_10)//}$(13_10)// loc 1 draw_text_transformed(grid[i,1], grid[i, 2] + 15, inventory[i,2], 1.8, 1.8, 0)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)//grid debugging$(13_10)temp_x = 10;$(13_10)$(13_10)for(i = 1; i<9; i++){$(13_10)	temp_x += 60;$(13_10)	temp_y = 100;$(13_10)	for(j = 0; j < 6; j++){$(13_10)		temp_y += 30;$(13_10)		draw_text_transformed(temp_x, temp_y, grid[i,j],1.5, 1.5, 0);  $(13_10)	}$(13_10)}"
+/// @DnDArgument : "code" "//draws the important values$(13_10)draw_set_color($FF0E727F)$(13_10)draw_text_transformed(180, 65, global.moral,2.8,2.8, 0);$(13_10)draw_text_transformed(190, 10, global.cash, 2.8, 2.8, 0);$(13_10)draw_text_transformed(440, 10, "time:" + string(global.time),2.8,2.8, 0);$(13_10)$(13_10)$(13_10)$(13_10)// drawing values above the objects.$(13_10)//drawing within the object itself causes it not to draw the sprite$(13_10)for(i = 1; i < 9; i++){$(13_10)	if(grid[i, 3] == true){$(13_10)		grid_y = grid[i, 2] - 115;$(13_10)		grid_x = grid[i, 1] - 25;$(13_10)		obj_num = grid[i, 0];$(13_10)		//fix index outta bound error for inventory < 8$(13_10)		// no try catch clauses possible in gm$(13_10)		if(inventory[obj_num, 2] > inventory[obj_num, 3]){$(13_10)			draw_set_color($2E8B57);$(13_10)		}else if(inventory[obj_num,2] < inventory[obj_num, 3]){$(13_10)			draw_set_color($8B0000);$(13_10)		}else{$(13_10)			if(grid[i, 5] == false){$(13_10)				draw_set_color($80C4DE);$(13_10)			}else{$(13_10)				draw_set_color($FF0E727F);$(13_10)			}$(13_10)		}	$(13_10)		draw_text_transformed(grid_x, grid_y,string(inventory[obj_num, 3]), 1.8, 1.8, 0);$(13_10)	}	$(13_10)}$(13_10)$(13_10)$(13_10)//grid debugging$(13_10)temp_x = 10;$(13_10)$(13_10)for(i = 1; i<9; i++){$(13_10)	temp_x += 60;$(13_10)	temp_y = 100;$(13_10)	for(j = 0; j < 6; j++){$(13_10)		temp_y += 30;$(13_10)		draw_text_transformed(temp_x, temp_y, grid[i,j],1.5, 1.5, 0);  $(13_10)	}$(13_10)}"
 //draws the important values
 draw_set_color($FF0E727F)
 draw_text_transformed(180, 65, global.moral,2.8,2.8, 0);
@@ -9,30 +9,30 @@ draw_text_transformed(190, 10, global.cash, 2.8, 2.8, 0);
 draw_text_transformed(440, 10, "time:" + string(global.time),2.8,2.8, 0);
 
 
-for (i = 1; i <= 8; i++){
+
+// drawing values above the objects.
+//drawing within the object itself causes it not to draw the sprite
+for(i = 1; i < 9; i++){
 	if(grid[i, 3] == true){
-		if(inventory[i,2] > inventory[i, 3]){
+		grid_y = grid[i, 2] - 115;
+		grid_x = grid[i, 1] - 25;
+		obj_num = grid[i, 0];
+		//fix index outta bound error for inventory < 8
+		// no try catch clauses possible in gm
+		if(inventory[obj_num, 2] > inventory[obj_num, 3]){
 			draw_set_color($2E8B57);
-		}else if(inventory[i,2] < inventory[i,3]){
+		}else if(inventory[obj_num,2] < inventory[obj_num, 3]){
 			draw_set_color($8B0000);
 		}else{
-			draw_set_color($B0C4DE);
-		}
-	}
-	
-	temp_y = grid[i,2] + 20;
-	draw_text_transformed(grid[i,1],temp_y, inventory[i, 3],1.8, 1.8, 0)
+			if(grid[i, 5] == false){
+				draw_set_color($80C4DE);
+			}else{
+				draw_set_color($FF0E727F);
+			}
+		}	
+		draw_text_transformed(grid_x, grid_y,string(inventory[obj_num, 3]), 1.8, 1.8, 0);
+	}	
 }
-//each grid layer, draw current value
-//if(inventory[i,3] == "true"){
-// if (inventory[i,2] > inventory[i,3]){set color green}
-// else if (inventory [i,2] < inventory[i,3]){set colour red}
-// else (default)
-//}
-// loc 1 draw_text_transformed(grid[i,1], grid[i, 2] + 15, inventory[i,2], 1.8, 1.8, 0)
-
-
-
 
 
 //grid debugging
