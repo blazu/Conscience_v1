@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "Freedom_Button",
     "eventList": [
-        
+        {
+            "id": "d9ab4355-beba-49f5-8582-8c7005b33292",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "f98d5fa9-be74-4773-a4cd-a52bc9106f99"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
