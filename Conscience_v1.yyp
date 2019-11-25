@@ -135,6 +135,22 @@
             }
         },
         {
+            "Key": "22ecbf9e-6ed6-4dcd-9d04-201a1df5fb4f",
+            "Value": {
+                "id": "66a742d9-7d09-4b0e-837f-682cab5e552d",
+                "resourcePath": "objects\\Game_End\\Game_End.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "24751138-1953-4f24-ae81-613687e42482",
+            "Value": {
+                "id": "89bee117-076c-4c8a-8a07-7a817fc8c9a3",
+                "resourcePath": "objects\\moral_killer\\moral_killer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "25bee864-53e8-4353-ace9-9053261d6675",
             "Value": {
                 "id": "8f6a2244-5e4e-407b-bfee-c5203ad5f255",

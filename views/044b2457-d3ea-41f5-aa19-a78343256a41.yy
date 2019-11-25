@@ -9,7 +9,9 @@
         "e85b7e45-2439-4968-9dca-82e22055274b",
         "cf350945-b8fc-40ed-8c43-3e9ca9660a4e",
         "ac3b9080-92dd-4109-80b5-9fe2431250f3",
-        "7a2da544-2c36-40c9-b794-93d09018324f"
+        "7a2da544-2c36-40c9-b794-93d09018324f",
+        "24751138-1953-4f24-ae81-613687e42482",
+        "22ecbf9e-6ed6-4dcd-9d04-201a1df5fb4f"
     ],
     "filterType": "GMObject",
     "folderName": "script calls",
