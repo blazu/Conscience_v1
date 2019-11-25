@@ -335,14 +335,6 @@
             }
         },
         {
-            "Key": "80f91eb6-f329-4bfc-b554-f85375bac4bc",
-            "Value": {
-                "id": "e4744f74-0c52-4026-a8fc-7823b5a892a4",
-                "resourcePath": "views\\80f91eb6-f329-4bfc-b554-f85375bac4bc.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "8138cdbe-d5f2-48b9-a8f3-c25644708dc5",
             "Value": {
                 "id": "2c3f45ff-498c-4e97-bc59-52f9bfc0bfea",
@@ -687,14 +679,6 @@
             }
         },
         {
-            "Key": "e6a581a7-c927-4ce0-bb6f-9132ccf6c311",
-            "Value": {
-                "id": "c7d39133-3ad2-41c2-9d13-db88cc68adff",
-                "resourcePath": "scripts\\Draw_Vars\\Draw_Vars.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "e7ba6227-d1d6-452c-9286-32394419b861",
             "Value": {
                 "id": "97528450-bbcb-44e3-935d-1cd49a399875",
@@ -798,7 +782,6 @@
         "99e967ef-a098-4c2c-978c-129c737945a1",
         "611eed35-6780-4cff-89d7-be6c0f345b15",
         "521b6cc9-5ed0-49fa-93f4-3b6eeefa1354",
-        "e6a581a7-c927-4ce0-bb6f-9132ccf6c311",
         "67f654f3-953f-4799-9e4d-f1e9ed623591"
     ],
     "tutorial": ""
