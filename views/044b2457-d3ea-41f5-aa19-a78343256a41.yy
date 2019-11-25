@@ -11,7 +11,8 @@
         "ac3b9080-92dd-4109-80b5-9fe2431250f3",
         "7a2da544-2c36-40c9-b794-93d09018324f",
         "24751138-1953-4f24-ae81-613687e42482",
-        "22ecbf9e-6ed6-4dcd-9d04-201a1df5fb4f"
+        "22ecbf9e-6ed6-4dcd-9d04-201a1df5fb4f",
+        "38a6440a-cdbe-4480-9f28-829f0aed5938"
     ],
     "filterType": "GMObject",
     "folderName": "Always_Running",

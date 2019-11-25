@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "38a6440a-cdbe-4480-9f28-829f0aed5938",
+            "Value": {
+                "id": "2e8bbf15-aaa7-41de-afd6-ee34e96b4639",
+                "resourcePath": "objects\\music\\music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "395d3135-4204-4ef1-ba7e-e18a4c632e5f",
             "Value": {
                 "id": "ba28947f-b739-4ec8-b110-2d30efd4b091",
@@ -516,6 +524,14 @@
                 "id": "d61ededc-935d-40ff-ad00-e1b58e51489c",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a92bcf9b-98e0-4f37-9da1-80c5cb7061ca",
+            "Value": {
+                "id": "b6d9b5df-6348-4890-b4dc-4790094c3e83",
+                "resourcePath": "sounds\\Conscience_Theme\\Conscience_Theme.yy",
+                "resourceType": "GMSound"
             }
         },
         {
