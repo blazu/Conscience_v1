@@ -14,7 +14,7 @@
         "22ecbf9e-6ed6-4dcd-9d04-201a1df5fb4f"
     ],
     "filterType": "GMObject",
-    "folderName": "script calls",
+    "folderName": "Always_Running",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
